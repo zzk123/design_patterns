@@ -14,10 +14,10 @@ public class HRDepartment extends Department {
 		}
 	}
 
-	@Override
+	//实现人力资源部对兼职员工的访问
 	public void visit(ParttimeEmployee employee) {
-		// TODO Auto-generated method stub
-		
+		int workTime = employee.getWorkTime();
+		System.out.println("临时工" + employee.getName() + "实际工作时间为：" + workTime + "小时");
 	}
 	
 }
