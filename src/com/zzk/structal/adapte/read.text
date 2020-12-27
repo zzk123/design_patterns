@@ -1,0 +1,4 @@
+对象适配器：
+ScoreOperation接口充当抽象目标
+QuickSort和BinarySearch类充当适配者
+OperationAdapter充当适配器

@@ -1,0 +1,5 @@
+采用建造者模式实现角色的创建
+ActorController充当指挥者
+ActorBuilder充当抽象建造者
+HeroBuilder，AngelBuilder和DevilBuilder充当具体建造者
+Actor充当复杂产品
